@@ -11,7 +11,7 @@ function Footer() {
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="mb-4">Location</h4>
                         <p class="lead mb-0">
-                            Las Vegas, Nevada.
+                            Las Vegas, Nevada
                         </p>
                     </div>
                     {/*  Footer Social Icons */}
