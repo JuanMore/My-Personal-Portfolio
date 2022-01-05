@@ -85,7 +85,7 @@ function Portfolio() {
                         <a href="https://github.com/JuanMore/Gifscroller" target="_blank" rel="noreferrer">
                         <i><FaGithub size={20} /></i></a>
                         <a href="https://gifscroller.netlify.app/" target="_blank" rel="noreferrer">
-                         <i><FaArrowRight size={20}/></i></a>
+                         <i><FaArrowRight color={red} size={20}/></i></a>
                     </div>
                 </div>
                 </div>
