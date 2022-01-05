@@ -239,6 +239,10 @@ button:focus:not(:focus-visible) {
 
 }
 
+.mr-1 {
+  margin-right: .7rem;
+}
+
 /* Contact Form */
 
 #contact {

@@ -1,4 +1,4 @@
-import { FaGithub, FaArrowRight } from 'react-icons/fa'
+import { FaGithub, FaLink } from 'react-icons/fa'
 import project1 from '../assets/img/portfolio/buildguild.png'
 import project2 from '../assets/img/portfolio/project12.png'
 import project3 from '../assets/img/portfolio/project11.png'
@@ -30,9 +30,9 @@ function Portfolio() {
                     </div>
                     <div className="card-subtitle">
                         <a href="https://github.com/JuanMore/Build-Guild" target="_blank" rel="noreferrer">
-                            <i><FaGithub size={20} /></i></a>
+                            <i className="mr-1"><FaGithub size={20} /></i></a>
                         <a href="http://www.buildguild.online/pages" target="_blank" rel="noreferrer">
-                            <i><FaArrowRight size={20}/></i></a>
+                            <i><FaLink size={20}/></i></a>
                     </div>
                 </div>
                 </div>
@@ -57,9 +57,9 @@ function Portfolio() {
                     </div>
                     <div className="card-subtitle">
                         <a href="https://github.com/JuanMore/Nonprofit" target="_blank" rel="noreferrer">
-                          <i><FaGithub size={20} /></i></a>
+                          <i><FaGithub className="mr-1" size={20} /></i></a>
                             <a href="https://nonproft.netlify.app/" target="_blank" rel="noreferrer">
-                         <i><FaArrowRight size={20}/></i></a>
+                         <i><FaLink size={20}/></i></a>
                     </div>
                 </div>
                 </div>
@@ -83,9 +83,9 @@ function Portfolio() {
                     </div>
                     <div className="card-subtitle">
                         <a href="https://github.com/JuanMore/Gifscroller" target="_blank" rel="noreferrer">
-                        <i><FaGithub size={20} /></i></a>
+                        <i><FaGithub className="mr-1" size={20} /></i></a>
                         <a href="https://gifscroller.netlify.app/" target="_blank" rel="noreferrer">
-                         <i><FaArrowRight color={red} size={20}/></i></a>
+                         <i><FaLink size={20}/></i></a>
                     </div>
                 </div>
                 </div>
