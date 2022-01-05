@@ -1,5 +1,5 @@
-import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
+import './App.css';
 import "bootstrap/dist/js/bootstrap.bundle.min"
 
 import Navbar from './components/Navbar';
