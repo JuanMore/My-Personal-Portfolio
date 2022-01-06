@@ -99,7 +99,7 @@ hr:not([size]) {
   padding-top: 1rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  background-color: rgba(255, 255, 255, 0.164);
+  background-color: #f6fcfc;
 }
 #mainNav .navbar-brand {
   color: #0a0a0a;
@@ -112,7 +112,7 @@ hr:not([size]) {
   z-index: 1;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: var(--text-color-primary);
+  color: #6c757dbd;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -293,6 +293,12 @@ button:focus:not(:focus-visible) {
 /* Icons */
 .icon:hover {
   color: #fff;
+}
+
+/* Utils */
+.navbar-toggler:focus {
+  box-shadow: none !important;
+  outline: 0;
 }
 
 /* Media Queries */

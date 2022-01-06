@@ -3,11 +3,11 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 function Navbar() {
     return (
         // Navigation
-        <nav className="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
+        <nav className="navbar navbar-expand-lg fixed-top" id="mainNav">
             <div className="container">
                 <a className="navbar-brand" href="https://www.juanmoreno.dev" target='_blank' rel="noreferrer">𝐉M<br />
                 </a>
-                <button className="navbar-toggler text-uppercase font-weight-bold text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler font-weight-bold text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon ={faBars} color="#000" />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
