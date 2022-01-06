@@ -3,7 +3,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 function Navbar() {
     return (
         // Navigation
-        <nav className="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <nav className="navbar navbar-expand-lg fixed-top bg-primary" id="mainNav">
             <div className="container">
                 <a className="navbar-brand" href="https://www.juanmoreno.dev" target='_blank' rel="noreferrer">𝐉M<br />
                 </a>
