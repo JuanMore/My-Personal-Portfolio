@@ -1,10 +1,13 @@
+import Fade from 'react-reveal/Fade';
+
 function Contact() {
     return (
         //  Contact Section
         <section className="page-section" id="contact">
             <div className="container">
                 {/* Contact Section Heading */}
-                <h2 className="page-section-heading text-center text-contact mb-5">lets work together</h2>
+                <Fade bottom>
+                <h2 className="page-section-heading text-center text-contact mb-5">Lets work together</h2>
                 {/* Contact Section Form */}
                 <div className="row justify-content-center">
                     <div className="col-lg-8 col-xl-5">
@@ -42,6 +45,7 @@ function Contact() {
                         </form>
                     </div>
                 </div>
+                </Fade>
             </div>
         </section>
     )

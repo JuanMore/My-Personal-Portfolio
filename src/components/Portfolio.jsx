@@ -2,38 +2,41 @@ import { FaGithub, FaLink } from 'react-icons/fa'
 import project1 from '../assets/img/portfolio/buildguild.png'
 import project2 from '../assets/img/portfolio/project12.png'
 import project3 from '../assets/img/portfolio/project11.png'
+import Fade from 'react-reveal/Fade';
+
 
 function Portfolio() {
     return (
         <section className="page-section projects" id="projects">
-    <div className="container">
-        {/* Project Section Heading */}
-        <h2 className="page-section-heading text-center text-color-2 mb-5">projects</h2>
-        {/* Project Grid Items */}
-        <div className="row justify-content-center">
-             {/* Project Item 1 */}
-            <div className="col-md-6 col-lg-4 mb-5">
+            <Fade bottom>
+                <div className="container">
+                {/* Project Section Heading */}
+                <h2 className="page-section-heading text-center text-color-2 mb-5">Projects</h2>
+                {/* Project Grid Items */}
+                <div className="row justify-content-center">
+                {/* Project Item 1 */}
+                <div className="col-md-6 col-lg-4 mb-5">
                 <div className="project-item mx-auto card">
-                    <div className="d-flex align-items-center justify-content-center">
-                    </div>
-                    <div className="card text-center">
-                    <div className="card-body">
-                        <a href="http://www.buildguild.online/pages" target="_blank" rel="noreferrer">
-                        <img className="img-fluid" src={project1} alt="..." />
-                    </a>
-                    </div>
-                    <div className="card-title mt-3">
-                        Build Guild | PC Builder Community
-                    </div>
-                    <div className="card-body">
-                        <p>This is a PC builder community website made with ExpressJS, Javascript, MongoDB, EJS, Bootstrap and Passport. I developed this website because I am currently building a new PC and I was inspired to create an application where anyone with a custom PC can go and show of their build, discuss them and meet like-minded people all in one place.</p>
-                    </div>
-                    <div className="card-subtitle">
-                        <a href="https://github.com/JuanMore/Build-Guild" target="_blank" rel="noreferrer">
-                            <i className="mr-1"><FaGithub size={20} /></i></a>
-                        <a href="http://www.buildguild.online/pages" target="_blank" rel="noreferrer">
-                            <i><FaLink size={20}/></i></a>
-                    </div>
+                <div className="d-flex align-items-center justify-content-center">
+                </div>
+                <div className="card text-center">
+                <div className="card-body">
+                <a href="http://www.buildguild.online/pages" target="_blank" rel="noreferrer">
+                <img className="img-fluid" src={project1} alt="..." />
+                </a>
+                </div>
+                <div className="card-title mt-3">
+                    Build Guild | PC Builder Community
+                </div>
+                <div className="card-body">
+                     <p>This is a PC builder community website made with ExpressJS, Javascript, MongoDB, EJS, Bootstrap and Passport. I developed this website because I am currently building a new PC and I was inspired to create an application where anyone with a custom PC can go and show of their build, discuss them and meet like-minded people all in one place.</p>
+                </div>
+                <div className="card-subtitle">
+                    <a href="https://github.com/JuanMore/Build-Guild" target="_blank" rel="noreferrer">
+                    <i className="mr-1"><FaGithub size={20} /></i></a>
+                    <a href="http://www.buildguild.online/pages" target="_blank" rel="noreferrer">
+                     <i><FaLink size={20}/></i></a>
+                </div>
                 </div>
                 </div>
             </div>
@@ -91,7 +94,8 @@ function Portfolio() {
                 </div>
             </div>
         </div>
-    </div>
+            </div>
+            </Fade>
 </section>
     )
 }

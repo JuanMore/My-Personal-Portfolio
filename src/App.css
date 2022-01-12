@@ -152,7 +152,7 @@ button:focus:not(:focus-visible) {
   padding-top: 9rem !important;
   padding-bottom: 5rem !important;
   position: relative;
-  height: 600px;
+  height: 70vh;
   background-image: var(--new--gradient);
 }
 #header-info, #header-info2 {
@@ -183,10 +183,10 @@ button:focus:not(:focus-visible) {
 /* About Section */
 #about {
   position:relative;
-        background-color: #fff !important;
-        padding: 6rem 0 10rem;
-        margin-bottom: -1px;
-        color: var(--main-font-color) !important;
+  background-color: #fff !important;
+  padding: 3rem 0 10rem;
+  margin-bottom: -1px;
+  color: var(--main-font-color) !important;
 }
 
 /* Projects */
@@ -241,6 +241,54 @@ button:focus:not(:focus-visible) {
 
 .mr-1 {
   margin-right: .7rem;
+}
+
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-body a{
+  text-decoration: none;
+  color: steelblue;
+}
+
+.languages .flex {
+  flex-wrap: wrap;
+}
+.languages .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-weight: 400;
+  margin: 10px 10px 20px;
+  transition: transform 0.2s ease-in;
+}
+
+.languages .card h4{
+  font-size: 1.3rem;
+  padding-top: 10px;
+}
+
+/* animation effect/slight jump on hover */
+.languages .card:hover {
+  transform: translateY(-5px);
+  background-image: var(--new--gradient);
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card-subtitle i{
+  font-size: 25px;
+  color: black;
 }
 
 /* Contact Form */
@@ -380,9 +428,6 @@ button:focus:not(:focus-visible) {
   h2 {
      font-size: 2.5rem;
   }
-  #about {
-    padding: 6rem 0 10rem;
-  }
   .card-img {
     width: 100%;
     display: flex;
@@ -392,63 +437,6 @@ button:focus:not(:focus-visible) {
     margin-bottom: 1rem!important;
   }
 
-}
-@media(max-width: 780px){
-  #about {
-    padding: 6rem 0 10rem;
-  }
-  .card-img {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-}
-
-.card-title {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.card-body a{
-  text-decoration: none;
-  color: steelblue;
-}
-
-.languages .flex {
-  flex-wrap: wrap;
-}
-.languages .card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #000;
-  font-weight: 400;
-  margin: 10px 10px 20px;
-  transition: transform 0.2s ease-in;
-}
-
-.languages .card h4{
-  font-size: 1.3rem;
-  padding-top: 10px;
-}
-
-/* animation effect/slight jump on hover */
-.languages .card:hover {
-  transform: translateY(-5px);
-  background-image: var(--new--gradient);
-  color: #fff;
-}
-
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.card-subtitle i{
-  font-size: 25px;
-  color: black;
 }
 
 
