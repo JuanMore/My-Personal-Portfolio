@@ -338,6 +338,10 @@ button:focus:not(:focus-visible) {
   background-color: #fff;
 }
 
+.footer h4 {
+  font-weight: 600;
+}
+
 /* Icons */
 .icon:hover {
   color: #fff;
