@@ -74,7 +74,7 @@ function Portfolio() {
                     </div>
                     <div className="card text-center">
                     <div className="card-body">
-                        <a href="https://gifscroller.netlify.app/" target="_blank" rel="noreferrer">
+                        <a href="https://lucid-lalande-036bc3.netlify.app/" target="_blank" rel="noreferrer">
                         <img className="img-fluid" src={project3} alt="..." />
                         </a>
                     </div>
