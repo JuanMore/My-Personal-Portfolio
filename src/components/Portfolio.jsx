@@ -79,10 +79,10 @@ function Portfolio() {
                         </a>
                     </div>
                     <div className="card-title mt-3 py-2">
-                        Gifscroller | Gif website
+                        Gifscroller | A fun place for Gifs
                     </div>
                     <div className="card-body">
-                        <p>This is a fun gif project made with the Giphy API, HTML, CSS and React for the front end. My goal with this project was to build a funny side project utilzing an API. Design Inspired by <a href="https://scrolller.com/">Srolller.com</a>.</p>
+                    <p>This is a fun gif project made with the Giphy API, HTML, CSS and React for the front end. My goal with this project was to build a funny side project utilzing an API. Design Inspired by <a href="https://scrolller.com/">Srolller.com</a>.</p>
                     </div>
                     <div className="card-subtitle">
                         <a href="https://github.com/JuanMore/Gifscroller" target="_blank" rel="noreferrer">
