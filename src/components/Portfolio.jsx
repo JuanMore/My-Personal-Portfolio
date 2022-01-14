@@ -82,7 +82,7 @@ function Portfolio() {
                         Gifscroller | Gif website
                     </div>
                     <div className="card-body">
-                        <p>This is a fun gif project I made with HTML5, CSS3 and Javascript. My goal with this project was to create a funny gif/meme scrolling application. I enjoy creating something unique and exciting wth raw HTML, CSS and JS. Credit to <a href="https://tenor.com">Tenor.com</a>. Inspired by <a href="https://scrolller.com/">Srolller.com</a>.</p>
+                        <p>This is a fun gif project made with the Giphy API, HTML, CSS and React for the front end. My goal with this project was to build a funny side project utilzing an API. Design Inspired by <a href="https://scrolller.com/">Srolller.com</a>.</p>
                     </div>
                     <div className="card-subtitle">
                         <a href="https://github.com/JuanMore/Gifscroller" target="_blank" rel="noreferrer">
