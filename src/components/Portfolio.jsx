@@ -1,5 +1,5 @@
 import { FaGithub, FaLink } from 'react-icons/fa'
-import project1 from '../assets/img/portfolio/buildguild.png'
+import project1 from '../assets/img/portfolio/buildguild1.png'
 import project2 from '../assets/img/portfolio/project12.png'
 import project3 from '../assets/img/portfolio/project11.png'
 import Fade from 'react-reveal/Fade';
