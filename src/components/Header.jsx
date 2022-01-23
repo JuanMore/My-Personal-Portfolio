@@ -9,7 +9,7 @@ function Header() {
             <div className="container d-flex align-items-start flex-column">
                     {/* Heading Info */}
                 <Fade bottom>
-                        <h1 className="image-heading text-md-start mb-0 align-items-end" id="header-info">Hello, my name is Juan |</h1>
+                        <h1 className="image-heading text-md-start align-items-end mb-4" id="header-info">Hello, my name is Juan</h1>
                         <h2 className="image-subheading  mb-5" id="header-info2">Front-End Web Developer</h2>
                         {/* Divider */}
                         <div className="divider-custom divider-light">

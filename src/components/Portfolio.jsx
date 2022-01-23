@@ -8,13 +8,13 @@ import Fade from 'react-reveal/Fade';
 function Portfolio() {
     return (
         <section className="page-section projects" id="projects">
-            <Fade bottom>
                 <div className="container">
                 {/* Project Section Heading */}
                 <h2 className="page-section-heading text-center text-color-2 mb-5">Projects</h2>
                 {/* Project Grid Items */}
                 <div className="row justify-content-center">
-                {/* Project Item 1 */}
+                    {/* Project Item 1 */}
+                    <Fade bottom>
                 <div className="col-md-6 col-lg-4 mb-5">
                 <div className="project-item mx-auto card">
                 <div className="d-flex align-items-center justify-content-center">
@@ -40,7 +40,9 @@ function Portfolio() {
                 </div>
                 </div>
             </div>
-            {/* Project Item 2 */}
+            </Fade>
+                    {/* Project Item 2 */}
+                    <Fade bottom>
             <div className="col-md-6 col-lg-4 mb-5">
                 <div className="project-item mx-auto card">
                     <div className="d-flex align-items-center justify-content-center">
@@ -67,7 +69,9 @@ function Portfolio() {
                 </div>
                 </div>
             </div>
-            {/* Project Items 3 */}
+            </Fade>
+                    {/* Project Items 3 */}
+                    <Fade bottom>
             <div className="col-md-6 col-lg-4 mb-5">
                 <div className="project-item mx-auto card">
                     <div className="d-flex align-items-center justify-content-center">
@@ -79,7 +83,7 @@ function Portfolio() {
                         </a>
                     </div>
                     <div className="card-title mt-3 py-2">
-                        Gifscroller | A fun place for funny gifs!
+                        Gifscroller | A Fun Place for Funny Gifs
                     </div>
                     <div className="card-body">
                     <p>This is a fun gif project made with the Giphy API, HTML, CSS and React for the front end. My goal with this project was to build a funny side project utilzing an API. Design Inspired by <a href="https://scrolller.com/">Srolller.com</a>.</p>
@@ -93,9 +97,9 @@ function Portfolio() {
                 </div>
                 </div>
             </div>
+            </Fade>
         </div>
             </div>
-            </Fade>
 </section>
     )
 }
