@@ -332,7 +332,6 @@ button:focus:not(:focus-visible) {
   background-image: var(--new--color);
   padding-top: 1rem;
   padding-bottom: 3rem;
-  background-color: #333;
   color: #fff;
 }
 
