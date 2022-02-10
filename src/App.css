@@ -273,7 +273,7 @@ button:focus:not(:focus-visible) {
 /* animation effect/slight jump on hover */
 .languages .card:hover {
   transform: translateY(-5px);
-  background-image: var(--new--gradient);
+  background-color: var(--new--color);
   color: #fff;
 }
 
