@@ -21,7 +21,7 @@ function Portfolio() {
                 </div>
                 <div className="card text-center">
                 <div className="card-body">
-                <a href="http://www.buildguild.online/pages" target="_blank" rel="noreferrer">
+                <a href="https://www.buildguild.online/pages" target="_blank" rel="noreferrer">
                 <img className="img-fluid" src={project1} alt="..." />
                 </a>
                 </div>
