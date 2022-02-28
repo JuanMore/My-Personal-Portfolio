@@ -34,7 +34,7 @@ function Portfolio() {
                 <div className="card-subtitle">
                     <a href="https://github.com/JuanMore/Build-Guild" target="_blank" rel="noreferrer">
                     <i className="mr-1"><FaGithub size={20} /></i></a>
-                    <a href="http://www.buildguild.online/pages" target="_blank" rel="noreferrer">
+                    <a href="https://www.buildguild.online/pages" target="_blank" rel="noreferrer">
                      <i><FaLink size={20}/></i></a>
                 </div>
                 </div>
