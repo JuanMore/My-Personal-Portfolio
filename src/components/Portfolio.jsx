@@ -14,7 +14,7 @@ function Portfolio() {
                 {/* Project Grid Items */}
                 <div className="row justify-content-center">
                     {/* Project Item 1 */}
-                    <Fade bottom>
+                    <Fade duration={1000} bottom>
                 <div className="col-md-6 col-lg-4 mb-5">
                 <div className="project-item mx-auto card">
                 <div className="d-flex align-items-center justify-content-center">
@@ -42,7 +42,7 @@ function Portfolio() {
             </div>
             </Fade>
                     {/* Project Item 2 */}
-                    <Fade bottom>
+                    <Fade duration={2000} bottom>
             <div className="col-md-6 col-lg-4 mb-5">
                 <div className="project-item mx-auto card">
                     <div className="d-flex align-items-center justify-content-center">
@@ -71,7 +71,7 @@ function Portfolio() {
             </div>
             </Fade>
                     {/* Project Items 3 */}
-                    <Fade bottom>
+                    <Fade duration={3000} bottom>
             <div className="col-md-6 col-lg-4 mb-5">
                 <div className="project-item mx-auto card">
                     <div className="d-flex align-items-center justify-content-center">
