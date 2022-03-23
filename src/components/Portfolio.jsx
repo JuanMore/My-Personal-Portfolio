@@ -12,13 +12,11 @@ function Portfolio() {
                 {/* Project Section Heading */}
                 <h2 className="page-section-heading text-center text-color-2 mb-5">Projects</h2>
                 {/* Project Grid Items */}
-                <div className="row justify-content-center">
-                    {/* Project Item 1 */}
-                    <Fade duration={1000} bottom>
+                <div className="row justify-content-center d-flex align-items-stretch">
+                {/* Project Item 1 */}
+                <Fade duration={1000} bottom>
                 <div className="col-md-6 col-lg-4 mb-5">
                 <div className="project-item mx-auto card">
-                <div className="d-flex align-items-center justify-content-center">
-                </div>
                 <div className="card text-center">
                 <div className="card-body">
                 <a href="https://www.buildguild.online/pages" target="_blank" rel="noreferrer">
@@ -29,7 +27,9 @@ function Portfolio() {
                     Build Guild | PC Builder Community
                 </div>
                 <div className="card-body">
-                     <p>This is a PC builder community website made with ExpressJS, Javascript, MongoDB, EJS, Bootstrap and Passport. I developed this website because I am currently building a new PC and I was inspired to create an application where anyone with a custom PC can go and show of their build, discuss them and meet like-minded people all in one place.</p>
+                     <p>This is a PC builder community website made with ExpressJS, Javascript, MongoDB, EJS, Bootstrap and Passport.
+                    I built this application because I was inspired to create a network for people to post their awesome
+                      PC builds.</p>
                 </div>
                 <div className="card-subtitle">
                     <a href="https://github.com/JuanMore/Build-Guild" target="_blank" rel="noreferrer">
@@ -45,8 +45,6 @@ function Portfolio() {
                     <Fade duration={2000} bottom>
             <div className="col-md-6 col-lg-4 mb-5">
                 <div className="project-item mx-auto card">
-                    <div className="d-flex align-items-center justify-content-center">
-                    </div>
                     <div className="card text-center">
                     <div className="card-body">
                         <a href="https://nonproft.netlify.app/" target="_blank" rel="noreferrer">
@@ -74,8 +72,6 @@ function Portfolio() {
                     <Fade duration={3000} bottom>
             <div className="col-md-6 col-lg-4 mb-5">
                 <div className="project-item mx-auto card">
-                    <div className="d-flex align-items-center justify-content-center">
-                    </div>
                     <div className="card text-center">
                     <div className="card-body">
                         <a href="https://lucid-lalande-036bc3.netlify.app/" target="_blank" rel="noreferrer">
@@ -86,7 +82,8 @@ function Portfolio() {
                         Gifscroller | A Fun Place for Funny Gifs
                     </div>
                     <div className="card-body">
-                    <p>This is a fun gif project made with the Giphy API, HTML, CSS and React for the front end. My goal with this project was to build a funny side project utilzing an API. Design Inspired by <a href="https://scrolller.com/">Srolller.com</a>.</p>
+                          <p>This is a fun gif project made with the Giphy API, HTML, CSS and React for the front end.
+                         My goal with this project was to build a funny side project utilzing an API. Design Inspired by <a href="https://scrolller.com/">Scrolller.com</a>.</p>
                     </div>
                     <div className="card-subtitle">
                         <a href="https://github.com/JuanMore/Gifscroller" target="_blank" rel="noreferrer">
