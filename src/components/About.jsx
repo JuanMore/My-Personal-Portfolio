@@ -41,6 +41,9 @@ function About() {
                     <h4>MongoDB</h4>
                 </div>
                 <div className="col-sm-2 card">
+                    <h4>Firebase</h4>
+                </div>
+                <div className="col-sm-2 card">
                     <h4>ExpressJS</h4>
                 </div>
                 <div className="col-sm-2 card">
