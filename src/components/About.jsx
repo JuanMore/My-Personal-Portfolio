@@ -14,7 +14,7 @@ function About() {
                         <div className="row">
                         <div className="col-lg-4 ms-auto"><p className="medium"><img className="card-img" src={me} alt="headshot" /> </p></div>
                         <div className="col-lg-4 me-auto"><p className="about-description">I'm a Front-End Web Developer from Las Vegas, NV.<br />
-                        <br /> I recently became a dad and I love it. I received my A.S in Computer Science in 2018, where I learned valuable programming and life skills. Admittingly, college was a challenge but I embraced it. <br /><br />Fast forward to 2020, I discovered web development, 
+                        <br /> I recently became a dad and I love it. I received my A.S in Computer Science in 2018, where I learned valuable programming and technical skills. Admittingly, college was a challenge but I embraced it. <br /><br />In 2020, I discovered web development, 
                         where I'm self-taught and enthusiastic about learning day-after-day and passionate about each line of code. I take pride in being highly adaptable, a strong problem solver and father.</p>
                     </div>
                 </div>
