@@ -1,4 +1,4 @@
-import me from '../assets/img/portfolio/profile_2.jpg'
+import me from '../assets/img/portfolio/profile.jpg'
 import Fade from 'react-reveal/Fade';
 
 
